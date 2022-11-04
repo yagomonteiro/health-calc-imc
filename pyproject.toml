@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "pyserial"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "health-calc-imc"
+version = "0.0.1"
+authors = [
+  { name="Yago Monteiro", email="yagluiz@gmail.com" },
+]
+description = "Calculates IMC given info about the person."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yagomonteiro/health-calc-imc"
+"Bug Tracker" = "https://github.com/yagomonteiro/health-calc-imc/issues"
